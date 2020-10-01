@@ -35,7 +35,7 @@ struct ContentView: View {
                         }
                     }
                     .pickerStyle(SegmentedPickerStyle())
-                }
+                }.textCase(nil)
                 
                 Section {
                     Text("$\(checkAmount)")
